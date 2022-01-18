@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+}
+h1 {
+  font-size: 8vw;
+}
+#btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: rgb(238, 255, 0);
+  border: 0;
+}
