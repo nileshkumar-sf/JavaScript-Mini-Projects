@@ -1,0 +1,44 @@
+main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+article {
+    max-height: fit-content;
+    max-width: 600px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px rgb(187, 183, 183); 
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    line-height: 8px;
+}
+.img-container {
+    padding-top: 20px;
+}
+img {
+    border-radius: 50%;
+    height: 200px;
+}
+#designation {
+    font-size: 1rem;
+    color: brown;
+}
+#about {
+    line-height: 25px;
+    font-size: 15px;
+    text-justify: auto;
+}
+.btn-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    border: none;
+    color: black;
+    background-color: antiquewhite;
+    font-size: 25px;
+}
